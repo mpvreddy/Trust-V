@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahasra Charitable Trust</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="home.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="png" href="images/favicon/apple-touch-icon.png"/>
+  <style>
+    /* Mobile Styles */
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+}
+
+.card-content {
+    text-align: center;
+}
+}
+
+
+/* Laptop Styles */
+@media only screen and (min-width: 768px) {
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 45%;
+}
+
+.card-content {
+    max-width: 45%;
+    text-align: left;
+}
+}
+
+</style>
+</head>
+
+<body>
+  <!-- Start Navbar -->
+ 
+  <!-- End Navbar -->
+
+  <style>
+    .custom-container {
+      padding-left: 95px;
+      /* Adjust as needed for the left side */
+      padding-right: 115px;
+      /* Adjust as needed for the right side */
+    }
+  </style>
+
+  <style>
+    #carouselExampleCaptions {
+      max-height: 500px;
+      /* Adjust this value as needed */
+      overflow: hidden;
+    }
+
+    .carousel-item img {
+      height: auto;
+      max-height: 100%;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+    }
+    .navbar-nav .nav-item {
+        margin-right: 10px; /* Adjust the value as needed */
+    }
+    
+    .nav-link {
+        color: #c27324; /* Change the color code to the desired color */
+    }
+    @media (max-width: 768px) {
+    #sahasra-logo {
+        width: 200px !important; /* Force width change for mobile view */
+        height: 100px !important; /* Force height change for mobile view */
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    .card {
+        margin-bottom: 20px;
+        padding: 0;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .card img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .card-content {
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .card-content h2 {
+        font-size: 1.2em;
+    }
+
+    .card-content p {
+        font-size: 0.9em;
+    }
+
+    .card + .card {
+        margin-top: 20px; /* Add margin-top between each card */
+    }
+}
+
+
+
+  </style>
+<div class="d-block" >
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand w-50" href="index.html">
+            <img id="sahasra-logo" src="images/sahasra-logo.png" alt="logo" class="w-25">
+        </a>
+        
+            <button style="float: right;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="home" style="color: #f38524;" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about-us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="our-work.html">Our Work</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="get-involved.html">Get Involved</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </li>
+                  <!-- <li class="nav-item mx-2">
+                      <a class="nav-link btn text-white bg-dark px-3 rounded-0" href="contact-us.php">Contact Us</a>
+                  </li> -->
+              </ul>
+
+            </div>
+        </div>
+    </nav>
+</div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" style="height: auto;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.squarespace-cdn.com/content/v1/60ec6d088f88114b023b9e2b/1626122213411-1S3T9HBMVO3WUNOICOZ3/2015-08-10_home-goods-4-1110-detail-FINAL.jpg?format=2500w" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nourishing Communities</h5>
+          <p>Bringing sustenance and hope to those in need.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/60ec6d088f88114b023b9e2b/1626202323568-5EIR9MHLB9I59JFN8T3Z/Laadli_JessMarteinson_PWBIndia2018-9524.jpg?format=750w" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Educating for Tomorrow</h5>
+          <p>Empowering minds, one child at a time.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.squarespace-cdn.com/content/v1/60ec6d088f88114b023b9e2b/1674453523887-C315I9V4ZPOMRJ1CTPEH/IMG_7072.JPG?format=2500w" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Healing Hearts, Changing Lives</h5>
+          <p>Providing care and support where it's needed most.</p>
+        </div>
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <br>
+<div class="card">
+  <div class="card-content">
+      <h2>Food Distribution Initiative</h2>
+      <p>At Sahasra Charitable Trust, our Food Distribution Initiative aims to combat hunger and ensure that no one in our community goes without a meal. Through this program, we provide nutritious and balanced meals to underprivileged families, focusing on those most in need. Our dedicated volunteers work tirelessly to distribute food, bringing hope and sustenance to countless individuals.</p>
+  </div>
+  <img src="images/7.jpg" alt="Image 1">
+</div>
+
+<div class="card">
+  <img src="images/8.jpg" alt="Image 2">
+  <div class="card-content">
+      <h2>Girls' Educational Empowerment Initiative</h2>
+      <p>Sahasra Charitable Trust is dedicated to empowering girls through our Girls' Educational Empowerment Initiative. We believe education is the key to breaking the cycle of poverty. By providing scholarships, resources, and support tailored to girls from disadvantaged backgrounds, we're creating a brighter future where every girl has the chance to succeed. Join us in transforming lives and communities through education.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+      <h2>Health and Wellness Program</h2>
+      <p>The Health and Wellness Program by Sahasra Charitable Trust is designed to provide essential medical services to those who lack access to healthcare. We conduct health camps, offer free medical check-ups, and supply necessary medicines, ensuring that even the most vulnerable populations receive the care they need. Our mission is to promote health and well-being across the community, one step at a time.</p>
+  </div>
+  <img src="images/9.jpg" alt="Image 3">
+</div>
+  <section class="location_section my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 py-5" style="position: relative;">
+          <h1 style="color: #0C2440;">Empowering Through Education</h1>
+          <p>At Sahasra Charitable Trust, we empower minds through education, offering opportunities for learning and growth to unlock the full potential of every individual. Join us in shaping a brighter future through knowledge and enlightenment.</p>
+        </div>
+        <div class="col-lg-5" style="position: relative;">
+          <img src="images/images.jpg" style="width: 80%; height: 250px" class="mx-4" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="background-color: #3a3939; margin-top:-48px;   color:#ffffff;" class="py-5">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 px-5 mb-2">
+            <img src="images/sahasra-logo.png" alt="" class="w-50 pb-2">
+            <p>The Sahasra Charitable Trust is committed to improving the lives of underprivileged communities through various educational, Food Distribution, and empowerment initiatives. With a focus on sustainable development and holistic support, we strive to create lasting positive change in the areas we serve.</p>
+        </div>
+        
+            <div class="col-lg-8 col-md-12">
+                <div class="row ">
+                    <div class="col-sm-5 footer-list px-5 mb-4">
+                        <h2>Explore</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="our-work.html">Our Work</a></li>
+                            <li><a href="get-involved.html">Get Involved</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-7 px-5">
+                        <h2>Visit Us</h2>
+                        <p>#501, Kailashnath Acrade, Plot-1-65/A/1'62, Opp - HDFC Bank Lane,
+                          Kavuri Hills, Madhapur
+                          Hyderabad, Telangana,Hyderabad.500081</p>
+                        <ul style="list-style: none;">
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+
+
+  <script>
+    // Select all cards
+    const cards = document.querySelectorAll('.card');
+
+    // Intersection Observer options
+    const options = {
+      root: null,
+      threshold: 0.2 // Adjust as needed
+    };
+
+    // Function to handle intersection
+    const handleIntersection = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Add animation class to the card
+          entry.target.classList.add('animate');
+          // Unobserve the card once animation is applied
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    // Create Intersection Observer
+    const observer = new IntersectionObserver(handleIntersection, options);
+
+    // Observe each card
+    cards.forEach(card => {
+      observer.observe(card);
+    });
+  </script>
+
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      const navbarCollapse = document.querySelector('#navbarSupportedContent');
+
+      navbarToggler.addEventListener('click', function() {
+        if (!navbarCollapse.classList.contains('show')) {
+          navbarCollapse.classList.add('show');
+        } else {
+          navbarCollapse.classList.remove('show');
+        }
+      });
+    });
+  </script>
+
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

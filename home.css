@@ -1,0 +1,65 @@
+.container-fluid {
+    padding-left: 150px; /* Adjust as needed for the left side */
+    padding-right: 150px; /* Adjust as needed for the right side */
+   
+  }  
+      .card {
+        width: 85%; /* Adjust as necessary */
+        margin: 0 auto;
+        height:65%;
+        margin-bottom: -20px;
+        opacity: 0; /* Initially hide cards */
+      }
+      
+      .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+      
+        overflow: hidden;
+      }
+      
+      .content img {
+        width: 50%; /* Take up half of the card width */
+        height: auto;
+      }
+      
+      .text {
+        width: 50%; /* Take up half of the card width */
+        padding: 20px;
+        /* Background color for text */
+      }
+      
+      .text h2 {
+        margin-top: 0;
+      }
+      
+      .text p {
+        margin: 10px 0;
+      }
+      
+      .text button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      /* Animation for fading in */
+      .animate {
+        animation: fade-in 0.5s ease-out forwards;
+      }
+      
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+          transform: translateY(50px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
