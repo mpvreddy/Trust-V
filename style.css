@@ -1,0 +1,369 @@
+body{
+    /* background: rgb(209,209,209);
+    background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(209,209,209,1) 100%); */
+    background-color: #bababa;
+  }
+  h1,h2,h3{
+    color: #E27F2B;
+  }
+  
+  
+  /* home */
+  
+  /* home */
+  
+  
+    /* Navbar */
+    .navbar a {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .navbar-toggler {
+      padding: 1px 5px;
+      font-size: 18px;
+      line-height: 0.5;
+      background-color: #ffffff;
+    }
+  
+  /* Breadcrumb */
+  .breadcrumb {
+    background: #ffffff;
+    display: inline-block;
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: #202125;
+    font-weight: 600;
+    float: right;
+    padding: 10px 15px !important;
+  }
+  .breadcrumb a {
+    text-decoration: none;
+    color: #E27F2B;
+  }
+  .breadcrumb a:hover {
+    text-decoration: none;
+    color: #0C2440;
+  }
+  
+    /* footer */
+    .footer-list ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .footer-list li{
+      padding: 10px;
+      border-bottom: 1px dashed #ffffff;
+    }
+    .footer-list li a{
+      color: #ffffff;
+      text-decoration: none;
+    }
+  
+  /* Social Media */
+  .social-media a{
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+  }
+  
+  /* Gallery */
+  .heading {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-image img {
+    height: 250px;
+    width: 350px;
+    /* transform: scale(1);
+    transition: transform 0.4s ease; */
+  }
+  
+  .img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .img-box:hover img {
+    transform: scale(1.1);
+  }
+  
+  .img-box:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .img-box:hover {
+    cursor: pointer;
+  }
+  
+  .opacity-low {
+    opacity: 0.5;
+  }
+  
+  /* work */
+  .card-img-top {
+    height: 200px;
+    width: 100%;
+  }
+  .one {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    border: 1px #76bbdc solid;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .one:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    transform: translateY(-10px);
+    border: 1px #0c2440 solid;
+  }
+  
+  .title-box {
+    font-weight: 700;
+  }
+  .image-height {
+    padding: 8px 8px 8px 8px;
+  }
+  
+  .text-color {
+    color: #0c2440;
+  }
+  
+  /* contact */
+  .icons{
+    color:#E27F2B;
+    border-radius:50px 50px solid #22212100 !important;
+    border: 2px solid #08080800 !important;
+    font-size: 18px;
+    /* align-items: center; */
+    justify-content: center !important;
+    /* padding: 10px; */
+    display: flex;
+  
+  }
+  .contact-icons{
+    width: 50px !important;
+    height: 50px !important;
+    border: 2px solid #b9b7b6;
+    /* background-color: #e7dcdc; */
+    padding: 10px;
+    border-radius: 50px 50px !important;
+  }
+  .submit-button{
+    color: white !important;
+    background-color:#E27F2B !important ;
+    font-size: 20px !important;
+  }
+  @media (max-width:767px){
+    .contact-section{
+       text-align: center !important;
+    } 
+  .intro-paragraph{
+    width: 100% !important;
+  }
+  .logo-png{
+    width:  50% !important;
+  }
+  .location_section:before{
+    background-color:  #E27F2B !important;
+  }
+  }
+  .intro-paragraph{
+    width: 50%;
+  }
+  .logo-png{
+    width:  30%;
+  }
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+  .card {
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 100%;
+  }
+
+  .card-content {
+      text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #sahasra-logo {
+      width: 200px !important; /* Force width change for mobile view */
+      height: 100px !important; /* Force height change for mobile view */
+  }
+}
+  .location_section{
+    padding:80px 0;
+    position:relative;
+    background-color: #E27F2B;
+  }
+  
+  .location_section:before{
+    position:absolute;
+    content:'';
+    height:100%;
+    width:30%;
+    top:0;
+    right:0;
+    background-color: #0C2440;
+  }
+  .no-posts-message h2 {
+  color: #ffffff; /* White text color */
+  text-align: center;
+  /* margin: 55px; */
+}
+
+.no-posts-message p {
+  color: #cccccc; /* Light gray text color */
+  text-align: center;
+  font-size: 16px;
+}
+
+.no-posts-message{
+  margin: 155px;
+}
+
+.popupcard-img-top-like-container   {
+  border-radius: 1px solid rgb(255, 255, 255);
+  margin-top: 15px;
+}.popupcard-container {
+  position: relative; /* Ensure relative positioning for absolute positioning of the popup */
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+ /* Sets the entire page's background color to black */
+  color: #fff; /* Sets the text color to white */
+}
+
+header {
+  padding: 10px 20px;
+  background-color: #000; /* Header's background */
+  border-bottom: 1px solid #444; /* Subtle border for separation */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #444;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden; /* Ensures no overflow of content */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row; /* Ensures horizontal layout */
+  align-items: flex-start; /* Aligns items at the top of the container */
+  width: 100%; /* Full width to accommodate both child elements */
+  max-width: 1200px; /* Adjust max-width to fit your layout needs */
+}
+
+.post {
+  flex-grow: 1; /* Allows the image container to grow and fill available space */
+  max-width: 70%; /* Adjust max width to allow room for the popup */
+  position: relative; /* For absolute positioning of elements inside */
+}
+
+.post img {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Keeps the image aspect ratio */
+  object-fit: cover; /* Covers the area of the container */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+ 
+  color: #fff;
+}
+/* Adjustments for smaller screens, especially for Patagonia post */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .card-img-top {
+    max-width: 100%; /* Adjusts max-width for better responsiveness */
+    height: 503px;
+    margin: 0 auto; /* Centers the image within its container */
+  }
+  .PopularAndTrending {
+    display: none; /* Hides the Popular and Trending section */
+  }
+  .post, #patagonia-post {
+    max-width: 100%; /* Allows all posts, including Patagonia, to take full width of the viewport */
+  }
+  #patagonia-post img {
+    width: 120%; /* Further increases the width of the Patagonia image on small screens */
+    margin-left: -10%; /* Adjusts the position to keep it centered */
+  } 
+}
+.nav-link {
+    color: inherit; /* or your default color */
+    text-decoration: none; /* remove underline if any */
+    font-size: 20px;
+}
+.nav-link.active {
+  color: orange; /* Change to your desired active color */
+}
